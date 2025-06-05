@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/adota_root_layout"
+    tools:context=".AdotaActivity">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/materialToolbar10"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:background="?attr/colorPrimary"
+        android:backgroundTint="#feddb9"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="1dp" />
+
+    <SearchView
+        android:id="@+id/searchView2"
+        android:layout_width="46dp"
+        android:layout_height="30dp"
+        app:layout_constraintEnd_toEndOf="@id/materialToolbar10"
+        app:layout_constraintTop_toTopOf="@id/materialToolbar10"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp" />
+
+    <ImageView
+        android:id="@+id/Gaya"
+        android:layout_width="373dp"
+        android:layout_height="272dp"
+        app:srcCompat="@drawable/gaya"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/materialToolbar10"
+        android:layout_marginTop="1dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gaya"
+        android:textColor="#4c3a17"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Gaya"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="19dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="São Paulo, São Paulo"
+        android:textColor="#4c3a17"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="@id/textView7"
+        app:layout_constraintTop_toBottomOf="@id/textView7"
+        android:layout_marginTop="0dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Gaya é uma cachorrinha muito dócil e animada. Ela foi encontrada na rua, mas agora se encontra em um ótimo estado e está pronta para ganhar uma família! Ela ainda não foi castrada e não convive bem com outro animais, então é importante que ela seja o único animalzinho presente na casa. Gaya ama correr e brincar e vai amar ter você cuidando dela!"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView8"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="20dp"
+        android:gravity="left"
+        android:justificationMode="inter_word" />
+
+    <Button
+        android:id="@+id/Adotar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#ff7417"
+        android:text="Adotar"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView6"
+        android:layout_marginTop="30dp" />
+
+    <ImageView
+        android:id="@+id/Escrita"
+        android:layout_width="190dp"
+        android:layout_height="62dp"
+        app:srcCompat="@drawable/escrita"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/materialToolbar10"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="9dp" />
+
+    <ImageButton
+        android:id="@+id/Logo"
+        android:layout_width="87dp"
+        android:layout_height="68dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/logo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/materialToolbar10"
+        android:layout_marginStart="-4dp"
+        android:layout_marginTop="1dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

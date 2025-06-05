@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/materialToolbar3"
+        android:layout_width="0dp"
+        android:layout_height="67dp"
+        android:background="?attr/colorPrimary"
+        android:backgroundTint="#feddb9"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="-2dp" />
+
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="46dp"
+        android:layout_height="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/AdotaAi"
+        android:layout_width="118dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#FEE1D4"
+        android:text="Adota aí!"
+        android:textColor="#4c3a17"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="75dp" />
+
+    <Button
+        android:id="@+id/Cadastro"
+        android:layout_width="118dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#FEE1D4"
+        android:text="Cadastro"
+        android:textColor="#4c3a17"
+        android:textSize="15dp"
+        app:layout_constraintStart_toEndOf="@id/AdotaAi"
+        app:layout_constraintTop_toTopOf="@id/AdotaAi"
+        app:layout_constraintBottom_toBottomOf="@id/AdotaAi"
+        android:layout_marginStart="12dp" />
+
+    <Button
+        android:id="@+id/nos"
+        android:layout_width="118dp"
+        android:layout_height="48dp"
+        android:text="Sobre nós"
+        android:textSize="15dp"
+        android:backgroundTint="#FEE1D4"
+        android:textColor="#4c3a17"
+        app:layout_constraintStart_toEndOf="@id/Cadastro"
+        app:layout_constraintTop_toTopOf="@id/Cadastro"
+        app:layout_constraintBottom_toBottomOf="@id/Cadastro"
+        android:layout_marginStart="13dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:text="Há um amigo de quatro patas esperando por você, com o coração cheio de carinho e o olhar cheio de esperança ❤️⭐"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/AdotaAi"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="26dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="16dp" />
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/materialToolbar2"
+        android:layout_width="187dp"
+        android:layout_height="63dp"
+        android:background="?attr/colorPrimary"
+        android:backgroundTint="#FEE1D4"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="389dp" />
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/materialToolbar"
+        android:layout_width="187dp"
+        android:layout_height="63dp"
+        android:background="?attr/colorPrimary"
+        android:backgroundTint="#FEE1D4"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="652dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gaya"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:textColor="#4c3a17"
+        app:layout_constraintStart_toStartOf="@id/materialToolbar2"
+        app:layout_constraintTop_toTopOf="@id/materialToolbar2"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="7dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mayla"
+        android:textColor="#4c3a17"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/materialToolbar"
+        app:layout_constraintTop_toTopOf="@id/materialToolbar"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="São Paulo, São Paulo"
+        android:textColor="#4c3a17"
+        android:textSize="13dp"
+        app:layout_constraintStart_toStartOf="@id/textView3"
+        app:layout_constraintTop_toBottomOf="@id/textView3"
+        android:layout_marginTop="0dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="São Paulo, São Paulo"
+        android:textColor="#4c3a17"
+        android:textSize="13dp"
+        app:layout_constraintStart_toStartOf="@id/textView2"
+        app:layout_constraintTop_toBottomOf="@id/textView2"
+        android:layout_marginTop="0dp" />
+
+    <ImageView
+        android:id="@+id/Logo"
+        android:layout_width="79dp"
+        android:layout_height="65dp"
+        app:srcCompat="@drawable/logo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="-6dp"
+        android:layout_marginTop="0dp" />
+
+    <ImageView
+        android:id="@+id/Escrita"
+        android:layout_width="190dp"
+        android:layout_height="62dp"
+        app:srcCompat="@drawable/escrita"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="3dp" />
+
+    <ImageButton
+        android:id="@+id/Gaya"
+        android:layout_width="187dp"
+        android:layout_height="177dp"
+        android:scaleType="fitCenter"
+        android:background="@null"
+        app:srcCompat="@drawable/gaya"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="212dp" />
+
+    <ImageButton
+        android:id="@+id/Mayla"
+        android:layout_width="190dp"
+        android:layout_height="177dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/mayla"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="475dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FEDDB9"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/fundo_branco"
+        android:layout_width="328dp"
+        android:layout_height="585dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="72dp"
+        android:background="@drawable/fundo_arredondado"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cadastre-se"
+            android:textColor="#4c3a17"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="95dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/materialToolbar4"
+            android:layout_width="280dp"
+            android:layout_height="56dp"
+            android:background="#88FFFFFF"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="87dp" />
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/materialToolbar5"
+            android:layout_width="280dp"
+            android:layout_height="56dp"
+            android:background="#88FFFFFF"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            tools:layout_editor_absoluteX="23dp"
+            tools:layout_editor_absoluteY="178dp" />
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/materialToolbar6"
+            android:layout_width="280dp"
+            android:layout_height="56dp"
+            android:background="#88FFFFFF"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            tools:layout_editor_absoluteX="23dp"
+            tools:layout_editor_absoluteY="274dp" />
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/materialToolbar7"
+            android:layout_width="200dp"
+            android:layout_height="56dp"
+            android:background="#88FFFFFF"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            tools:layout_editor_absoluteX="105dp"
+            tools:layout_editor_absoluteY="339dp" />
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/materialToolbar8"
+            android:layout_width="70dp"
+            android:layout_height="56dp"
+            android:background="#88FFFFFF"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            tools:layout_editor_absoluteX="23dp"
+            tools:layout_editor_absoluteY="339dp" />
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/materialToolbar9"
+            android:layout_width="280dp"
+            android:layout_height="56dp"
+            android:background="#88FFFFFF"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            tools:layout_editor_absoluteX="24dp"
+            tools:layout_editor_absoluteY="427dp" />
+
+        <EditText
+            android:id="@+id/Nome"
+            android:layout_width="280dp"
+            android:layout_height="56dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Nome"
+            tools:layout_editor_absoluteX="23dp"
+            tools:layout_editor_absoluteY="87dp" />
+
+        <EditText
+            android:id="@+id/Telefone"
+            android:layout_width="200dp"
+            android:layout_height="56dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="( ) 0000-0000"
+            tools:layout_editor_absoluteX="105dp"
+            tools:layout_editor_absoluteY="339dp" />
+
+        <EditText
+            android:id="@+id/E_mail"
+            android:layout_width="280dp"
+            android:layout_height="56dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="E-mail"
+            tools:layout_editor_absoluteX="23dp"
+            tools:layout_editor_absoluteY="178dp" />
+
+        <EditText
+            android:id="@+id/Senha"
+            android:layout_width="280dp"
+            android:layout_height="56dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Senha"
+            tools:layout_editor_absoluteX="23dp"
+            tools:layout_editor_absoluteY="274dp" />
+
+        <EditText
+            android:id="@+id/Cidade"
+            android:layout_width="280dp"
+            android:layout_height="56dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Cidade"
+            tools:layout_editor_absoluteX="24dp"
+            tools:layout_editor_absoluteY="427dp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+55"
+            android:textColor="#4c3a17"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="40dp"
+            tools:layout_editor_absoluteY="352dp" />
+
+        <CheckBox
+            android:id="@+id/CheckBox"
+            android:layout_width="280dp"
+            android:layout_height="45dp"
+            android:text="Eu aceito os Termos de Uso e Política de Privacidade"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="24dp"
+            tools:layout_editor_absoluteY="474dp" />
+
+        <Button
+            android:id="@+id/Cadastrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#ff7417"
+            android:text="Cadastrar"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="91dp"
+            tools:layout_editor_absoluteY="519dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome"
+            android:textColor="#4c3a17"
+            android:textSize="18dp"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="63dp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="E-mail"
+            android:textColor="#4c3a17"
+            android:textSize="18dp"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="154dp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cidade"
+            android:textColor="#4c3a17"
+            android:textSize="18dp"
+            tools:layout_editor_absoluteX="23dp"
+            tools:layout_editor_absoluteY="403dp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Senha"
+            android:textColor="#4c3a17"
+            android:textSize="18dp"
+            tools:layout_editor_absoluteX="23dp"
+            tools:layout_editor_absoluteY="250dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
